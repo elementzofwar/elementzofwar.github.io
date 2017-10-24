@@ -1,2 +1,1 @@
-Starfire 'client.clashRoyale.clanRecord.getAllByTag', {limit: 10, tag: 'YU2RQG9'}, (err, clanRecords) ->
-  console.log 'clanRecords', clanRecords, err
+Starfire('init', {appId: 'x6fae9506-5572-41c4-8024-92cadd6d11af'})
