@@ -8,6 +8,10 @@
 	  .colmun-right{float: right; width: 33%;}
 	  .column-mid{display: inline-block; width: 33%}
 	</style>
+	<head>
+		<script type="text/javascript" src="javascript/jquery.js"></script>
+		<script type="text/javascript" src="javascript/jquery.ajax-cross-origin.min.js"></script>
+	</head>
 	<body>
 		<font face="Helvetica">
 			<center>
@@ -55,6 +59,19 @@
 						<h2 style="color: white;">
 							Clan Members
 						</h2>
+
+						<script type="text/javascript">
+						    $.ajax(
+						    {
+						      crossOrigin: true,
+						      url: 'http://api.cr-api.com/clan/CYJ2V',
+						      success: function(data)
+						      {
+						        $( '#test' ).html(data);
+						      }
+							}); 
+						</script>
+
 					</font>
 				</center>
 			</div>
