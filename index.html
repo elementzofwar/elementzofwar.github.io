@@ -1,69 +1,73 @@
 <!DOCTYPE html>
 <html>
-<style>
-  body{padding-left: 30px; padding-right: 30px; background-color: #1f1f1f;}
-  .indent{text-indent: 30px}
-  .container{display: flex;}
-  .column-one{order: 1; width: 33.33%}
-  .column-two{order: 2}
-  .colmun-three{order: 3; width: 33.33%;}
-</style>
-<body>
-<center>
-<font face="Helvetica">
-<p style="font-size: 80px;">
-  <span style="color: #C11111;">Elementz </span>
-  <span style="color: #ECFAFE;">of </span>
-  <span style="color: #3975B9;">War</span>
-</p>
-<center></center><img src="images\clan_badge.png"></center>
-</font>
-</center>
+	<style>
+	  body{padding-left: 30px; padding-right: 30px; background-color: #1f1f1f;}
+	  .indent{text-indent: 30px}
+	  .container{display: inline}
+	  .column-left{float: left; width: 33%}
+	  .colmun-right{float: right; width: 33%;}
+	  .column-mid{display: inline-block; width: 33%}
+	</style>
+	<body>
+		<font face="Helvetica">
+			<center>
+				<p style="font-size: 80px;">
+				  <span style="color: #C11111;">Elementz </span>
+				  <span style="color: #ECFAFE;">of </span>
+				  <span style="color: #3975B9;">War</span>
+				</p>
+			</center>
+			<center>
+				<img src="images\clan_badge.png">
+			</center>
+		</font>
 
-<div class="container">
-<div class="column-one">
-	<center>
-	<font face="Helvetica">
-	<h2 style="color: white">
-		Description
-	</h2>
-	<p style="color: yellow">Glory Shall Be Ours!</p>
-	<p style="color: white">Promotion Requirements:</p>
-	<p style="color: white">Elder: 400 Donations</p>
-	<p style="color: white">Co-Leader: 800 Donations</p>
-	<p style="color: red"><b>Please Request for a Promotion Once You Have Reached Passed the Requirements. Before the Weekly Reset.</b></p>
-	</font>
-	</center>
-</div>
-<div class="column-two">
-	<center>
-	<font face="Helvetica">
-	<h2 style="color: white;">
-		Chat
-	</h2>
-	<p style="color: yellow">Glory Shall Be Ours!</p>
-	<p style="color: white">Promotion Requirements:</p>
-	<p class="indent"; style="color: white">Elder: 400 Donations</p>
-	<p class="indent"; style="color: white">Co-Leader: 800 Donations</p>
-	<p style="color: red"><b>Please Request for a Promotion Once You Have Reached Passed the Requirements. Before the Weekly Reset.</b></p>
-	</font>
-	</center>
-</div>
-<div class="column-three">
-	<center>
-	<font face="Helvetica">
-	<h2 style="color: white;">
-		Clan Members
-	</h2>
-	<p style="color: yellow">Glory Shall Be Ours!</p>
-	<p style="color: white">Promotion Requirements:</p>
-	<p class="indent"; style="color: white">Elder: 400 Donations</p>
-	<p class="indent"; style="color: white">Co-Leader: 800 Donations</p>
-	<p style="color: red"><b>Please Request for a Promotion Once You Have Reached Passed the Requirements. Before the Weekly Reset.</b></p>
-	</font>
-	</center>
-</div>
-</div>
+		<div class="container">
+			<div class="column-mid">
+				<center>
+					<font face="Helvetica">
+						<h2 style="color: white">
+							Description
+						</h2>
+						<p style="color: yellow">
+							Glory Shall Be Ours!
+						</p>
+						<p style="color: white">
+							Promotion Requirements:
+						</p>
+						<p style="color: white">
+							Elder: 400 Donations
+						</p>
+						<p style="color: white">
+							Co-Leader: 800 Donations
+						</p>
+						<p style="color: red">
+							<b>
+								Please Request for a Promotion Once You Have Reached Passed the Requirements. Before the Weekly Reset.
+							</b>
+						</p>
+					</font>
+				</center>
+			</div>
+			<div class="column-left">
+				<center>
+					<font face="Helvetica">
+						<h2 style="color: white;">
+							Clan Members
+						</h2>
+					</font>
+				</center>
+			</div>
+			<div class="colmun-right">
+				<center>
+					<font face="Helvetica">
+						<h2 style="color: white;">
+							Clan Chat
+						</h2>
+					</font>
+				</center>
+			</div>
+		</div>
 
-</body>
+	</body>
 </html>
