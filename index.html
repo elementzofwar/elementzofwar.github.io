@@ -9,8 +9,15 @@
 	  .column-mid{display: inline-block; width: 33%}
 	</style>
 	<head>
-		<script type="text/javascript" src="javascript/jquery.js"></script>
-		<script type="text/javascript" src="javascript/jquery.ajax-cross-origin.min.js"></script>
+		<title>Elementz of War</title>
+		<script>
+			(function(S,t,a,r,f,i,re){S[f]=S[f]||function(){
+			(S[f].q=S[f].q||[]).push(arguments)},S[f].l=1*new Date();i=t.createElement(a),
+			re=t.getElementsByTagName(a)[0];i.async=1;i.src=r;re.parentNode.insertBefore(i,re)
+			})(window,document,'script','scripts/starfire.js','Starfire');
+
+			Starfire('init', {appId: 'xxxx-xxxx-xxxx-xxxx'})
+		</script>
 	</head>
 	<body>
 		<font face="Helvetica">
@@ -57,21 +64,9 @@
 				<center>
 					<font face="Helvetica">
 						<h2 style="color: white;">
-							Clan Members
+							StarFire Client
 						</h2>
-
-						<script type="text/javascript">
-						    $.ajax(
-						    {
-						      crossOrigin: true,
-						      url: 'http://api.cr-api.com/clan/CYJ2V',
-						      success: function(data)
-						      {
-						        $( '#test' ).html(data);
-						      }
-							}); 
-						</script>
-
+						<embed src="https://starfire.games/clash-royale/clan" style="width:100%; height: 600px;">
 					</font>
 				</center>
 			</div>
@@ -79,8 +74,9 @@
 				<center>
 					<font face="Helvetica">
 						<h2 style="color: white;">
-							Clan Chat
+							Clan Members
 						</h2>
+						<script src='scripts/clan_members.js'></script>
 					</font>
 				</center>
 			</div>
