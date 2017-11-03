@@ -1,1 +1,0 @@
-Starfire('init', {appId: 'x6fae9506-5572-41c4-8024-92cadd6d11af'})
